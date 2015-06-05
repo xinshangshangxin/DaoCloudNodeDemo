@@ -1,0 +1,10 @@
+image: node
+
+services:
+  - mysql
+  - mongodb
+
+script:
+ - npm install mocha -g
+ - npm install
+ - npm test

@@ -1,0 +1,26 @@
+{
+  "name": "DaoCloudNodeDemo",
+  "version": "1.0.2",
+  "description": "DaoCloudNodeDemo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --recursive --timeout 10000 -R spec --require should --harmony test/ --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitcafe.com:xinshangshangxin/DaoCloud_Node_Demo.git"
+  },
+  "keywords": [
+    "DaoCloud"
+  ],
+  "author": "xinshangshangxin",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^4.0.4",
+    "mysql": "git://github.com/felixge/node-mysql.git"
+  },
+  "devDependencies": {
+    "should": "^6.0.3"
+  }
+}
